@@ -1,0 +1,588 @@
+@import 'fonts.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+:root {
+    --f100: 'Montserrat-Thin';
+    --f900: 'Montserrat-Black';
+    --f700: 'Montserrat-Bold';
+    --f400: 'Montserrat-Regular';
+    --f300: 'Montserrat-Light';
+    --green: #68bf3b;
+    --white: #ffffff;
+    --grey: #bdbdbd;
+    --text_grey: #a6a6a6;
+    --menu: #e1f5d0;
+    --footer_bg: #060503;
+    --col-1: calc(100% /12);
+    --col-2: calc(100% / 12 * 2);
+    --col-3: calc(100% / 12 * 3);
+    --col-4: calc(100% / 12 * 4);
+    --col-5: calc(100% / 12 * 5);
+    --col-6: calc(100% / 12 * 6);
+    --col-7: calc(100% / 12 * 7);
+    --col-8: calc(100% / 12 * 8);
+    --col-9: calc(100% / 12 * 9);
+    --col-10: calc(100% / 12 * 10);
+    --col-11: calc(100% / 12 * 11);
+    --col-12: calc(100%);
+}
+
+
+
+.row {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: var(--col-1);
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: var(--col-2);
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: var(--col-3);
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: var(--col-4);
+    padding: 0 15px;
+}
+
+.col-5 {
+    width: var(--col-5);
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: var(--col-6);
+    padding: 0 15px;
+}
+
+.col-7 {
+    width: var(--col-7);
+    padding: 0 15px;
+}
+
+.col-8 {
+    width: var(--col-8);
+    padding: 0 15px;
+}
+
+
+.col-9 {
+    width: var(--col-9);
+    padding: 0 15px;
+}
+
+
+.col-10 {
+    width: var(--col-10);
+    padding: 0 15px;
+}
+
+
+.col-11 {
+    width: var(--col-11);
+    padding: 0 15px;
+}
+
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+
+
+.d-f {
+    display: flex;
+}
+
+.j-c-s-b {
+    justify-content: space-between;
+}
+
+.al-it-c {
+    align-items: center;
+}
+
+.fl-col {
+    flex-direction: column;
+}
+
+
+.fl-wr {
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.mh-10-vh {
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: var(--f400);
+    font-size: 18px;
+}
+
+/* header start */
+.header {
+    background: url(../images/header_bg1.jpg) no-repeat center/cover;
+}
+
+.logo {
+    font-family: var(--f700);
+    font-size: 24px;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 17px;
+    padding: 47px 0;
+}
+
+.nav_item1 {
+    font-size: 24px;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 23px;
+    margin-right: 50px;
+}
+
+.nav_item2 {
+    font-size: 16px;
+    color: var(--white);
+    line-height: 14px;
+    padding: 19px 41px 17px 40px;
+    border-radius: 40px;
+    background: var(--green);
+}
+
+.header_info {
+    flex-grow: 1;
+}
+
+.header_title {
+    font-family: var(--f900);
+    font-size: 18px;
+    line-height: 13px;
+    color: var(--white);
+    text-transform: uppercase;
+    padding-top: 149px;
+}
+
+.header_subtitle {
+    font-size: 72px;
+    font-family: var(--f900);
+    line-height: 53px;
+    color: var(--white);
+    text-transform: uppercase;
+    padding-top: 33px;
+}
+
+.header_price {
+    line-height: 13px;
+    color: var(--white);
+    padding: 39px 0 50px;
+}
+
+.button {
+    color: var(--white);
+    font-size: 16px;
+    line-height: 15px;
+    padding: 18px 47px 17px 45px;
+    background: var(--green);
+    border-radius: 40px;
+}
+
+/* header end */
+
+/* main start */
+.right_b1 {
+    width: 70%;
+}
+
+.totti {
+    padding: 47px 5px 0 5px;
+}
+
+.b1_item {
+    font-family: var(--f700);
+    font-size: 36px;
+    color: var(--green);
+    line-height: 32px;
+    text-transform: uppercase;
+    padding: 110px 0 0 7px;
+    margin: 0;
+}
+
+.b1_text {
+    color: var(--grey);
+    line-height: 36px;
+    padding-top: 60px;
+    margin: 0;
+}
+
+.block {
+    display: block;
+}
+
+.name {
+    font-family: var(--f700);
+    font-size: 24px;
+    color: var(--grey);
+    line-height: 22px;
+}
+
+.signature {
+    padding: 32px 0 0 62px;
+}
+
+.menu {
+    font-family: var(--f700);
+    font-size: 36px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: var(--green);
+    padding-top: 67px;
+}
+
+.percent {
+    position: absolute;
+    top: 30px;
+    line-height: 13px;
+    left: 30px;
+    color: var(--white);
+    font-family: var(--f700);
+    padding: 23px 10px;
+    border-radius: 35px;
+    background: var(--green);
+}
+
+.item_1 {
+    position: relative;
+}
+
+.item_2 {
+    padding-left: 30px;
+}
+
+.pizza_title {
+    font-family: var(--f700);
+    font-size: 30px;
+    line-height: 22px;
+    color: var(--text_grey);
+    text-transform: uppercase;
+}
+
+.pizza_text {
+    color: var(--text_grey);
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 31px;
+}
+
+.pizaa_price_b2 {
+    font-family: var(--f700);
+    font-size: 30px;
+    line-height: 22px;
+    color: var(--text_grey);
+    text-align: right;
+    margin-bottom: 32px;
+}
+
+
+
+.sum {
+    font-size: 14px;
+    line-height: 10px;
+    font-family: var(--f300);
+}
+
+.block2 {
+    padding-top: 50px;
+}
+
+.button_order {
+    font-size: 16px;
+    color: var(--white);
+    background: var(--green);
+    border-radius: 40px;
+    padding: 18px 51px 20px 50px;
+    display: inline-block;
+}
+
+.Sitora_ubaydullayeva {
+    padding-top: 150px;
+    margin: auto;
+}
+
+.name_b3 {
+    font-family: var(--f700);
+    font-size: 20px;
+    line-height: 10px;
+    color: var(--text_grey);
+    margin: 31px 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text_b3 {
+    font-family: var(--f400);
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--text_grey);
+    text-align: center;
+    padding: 24px 7px 0;
+}
+
+/* main end */
+
+/* footer start */
+
+.footer {
+    background: var(--footer_bg);
+    height: 200px;
+    margin-top: 75px;
+}
+
+.copyright h5 {
+    text-align: center;
+    color: var(--white);
+    font-family: var(--f100);
+    font-size: 16px;
+    line-height: 12px;
+    margin-top: 16px;
+}
+
+
+/* footer end */
+
+/* MEDIA START */
+
+@media(max-width: 1128px) {
+
+    .block_3_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name_b3 {
+        line-height: 18px;
+    }
+
+    .block3_items {
+        width: var(--col-8);
+    }
+}
+
+
+@media(max-width: 1118px) {
+    .block1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .b1_item {
+        text-align: center;
+    }
+
+    .items {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 980px) {
+    .menu {
+        text-align: center;
+    }
+
+    .block2_items {
+        flex-direction: column;
+    }
+
+    .item_3 {
+        display: flex;
+        justify-content: space-between;
+        width: 73%;
+        margin-top: 15px;
+    }
+
+    .pizaa_price_b2 {
+        align-self: center;
+        margin-bottom: 0;
+        font-size: 25px;
+    }
+}
+
+/* ************************************* */
+
+@media(max-width: 725px) {
+    .plus2 {
+        flex-direction: column;
+    }
+    
+    .button_order {
+        font-size: 15px;
+        padding: 13px 46px 15px 45px;
+    }
+
+    .pizza_title {
+        padding-top: 12px;
+    }
+}
+
+
+@media(max-width: 722px) {
+    .logo {
+        margin: auto;
+    }
+
+    .contact {
+        display: none;
+    }
+}
+
+@media(max-width: 667px) {
+    .right_b1 {
+        width: 80%;
+    }
+}
+
+@media(max-width: 602px) {
+
+    .header_subtitle {
+        line-height: 67px;
+        text-align: center;
+    }
+
+    .header_info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+}
+
+@media(max-width: 609px) {
+    .name {
+        text-align: center;
+        line-height: 26px;
+    }
+}
+
+@media(max-width: 591px) {
+    .b1_item {
+        line-height: 40px;
+    }
+}
+
+@media(max-width: 552px) {
+    .block3_items {
+        width: var(--col-10);
+    }
+}
+
+
+@media(max-width: 500px) {
+    .name {
+        margin-top: 15px;
+    }
+
+    .items {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 475px) {
+    .button_order {
+        font-size: 13px;
+        padding: 10px 40px 12px 40px;
+    }
+
+    .block3_items {
+        width: var(--col-12);
+    }
+}
+
+@media(max-width: 445px) {
+    .button_order {
+        font-size: 10px;
+        padding: 8px 35px 10px 35px;
+    }
+
+    .pizaa_price_b2 {
+        font-size: 22px;
+    }
+
+}
+
+@media(max-width: 416px) {
+    .copyright h5 {
+        line-height: 20px;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 393px) {
+    .Sitora_ubaydullayeva {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 369px) {
+
+    .totti,
+    .right_b1 {
+        width: 100%;
+        margin: auto 10px;
+    }
+
+}
+
+@media(max-width: 343px) {
+
+    .header_title {
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .header_subtitle {
+        font-size: 60px;
+        line-height: 50px;
+    }
+}
+
+
+
+/* MEDIA END */
